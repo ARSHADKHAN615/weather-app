@@ -31,12 +31,12 @@ function addWeathertoPage(data) {
                         `
 
 
-    if (data.message === "city not found") {
+    if (data.message) {
         weather.innerHTML = "<h1>city not found</h1>"
         console.log("yes");
     }
-
     main.appendChild(weather);
+
 
 
     // CHANGE A BACKGROUND AS weather 
