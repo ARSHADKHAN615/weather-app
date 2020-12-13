@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right top, #051937, #232b68, #5a3696, #9e35b9, #eb12cf);
+    overflow: hidden;
+}
+
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg.rain {
+    background-image: url("https://images.unsplash.com/photo-1438449805896-28a666819a20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+.bg.smoke {
+    background-image: url("https://images.unsplash.com/photo-1532300481631-0bc14f3b7699?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+.bg.cloud {
+    background-image: url("https://images.unsplash.com/photo-1601805726404-5d8fa23109a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1487&q=80");
+}
+
+.bg.sun {
+    background-image: url("https://images.unsplash.com/photo-1595533625716-ee2623108b0d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+}
+
+.bg.haze {
+    background-image: url("https://images.unsplash.com/photo-1542669334-9f30f4af1266?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+}
+
+#search {
+    padding: 0.8rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    outline: none;
+    transition: all 0.3s;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+#search:focus {
+    box-shadow: 0px 0px 18px 3px rgba(65, 249, 255, 0.377);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2,
+h1,
+p {
+    margin: 0%;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.weather {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(18, 128, 73);
+    color: white;
+    width: 300px;
+    min-height: 100px;
+    margin: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 5px 3px rgb(18, 128, 73);
+    position: absolute;
+}
+
+#dec {
+    position: absolute;
+    bottom: 0%;
+    margin-top: .8rem;
+}
